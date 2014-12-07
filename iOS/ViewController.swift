@@ -53,9 +53,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 
                 var boxColor = UIColor(red: 226, green: 241, blue: 249, alpha: 0.3)
                 
+                self.domainField?.keyboardAppearance = UIKeyboardAppearance.Dark
+                
                 for f in self.textfields {
                     var field: UITextField = f!
                     field.keyboardType = UIKeyboardType.NumberPad
+                    field.keyboardAppearance = UIKeyboardAppearance.Dark
                     field.layer.masksToBounds = true
                     field.layer.cornerRadius = 5.0
                     field.layer.borderColor = boxColor.CGColor

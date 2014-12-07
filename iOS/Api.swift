@@ -81,5 +81,14 @@ class Api {
         }
     }
     
+    func logout(cb: () -> ()) {
+    
+        manager.request(NSURLRequest(URL: NSURL(string: "http://\(self.domain)/logout")!)).response {
+            (req, res, data, err) in
+                cb()
+        }
+    
+    }
+    
 }
 

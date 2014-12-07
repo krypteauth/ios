@@ -41,8 +41,20 @@ class InfoViewController: UITableViewController {
         })
     }
     
+    func resetDomain () {
+        self.storage?.store("domain", value: nil)
+    }
+    
     @IBAction func toggleEdit () {
         self.setEditing(!self.editing, animated: true)
+    }
+    
+    @IBAction func logout () {
+        self.api?.logout({
+            self.resetDomain()
+            var vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("login") as UIViewController
+            self.presentViewController(vc, animated: true, completion: nil)
+        })
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {

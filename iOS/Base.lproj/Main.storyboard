@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" id="vXZ-lx-hvc" customClass="ViewController" customModule="iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -135,6 +135,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="QOw-iq-jx5">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="52D-wE-KSm">
+                            <connections>
+                                <action selector="logout" destination="2kT-Uv-TYn" id="A1z-KZ-Pkh"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Edit" id="nhQ-6R-hXX">
                             <connections>
                                 <action selector="toggleEdit" destination="2kT-Uv-TYn" id="LhS-ZT-asS"/>
