@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923F6CFC1A33F3610019EC7E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923F6CFB1A33F3610019EC7E /* InfoViewController.swift */; };
 		92FD8D641A336E1E007A5622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FD8D631A336E1E007A5622 /* AppDelegate.swift */; };
 		92FD8D661A336E1E007A5622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FD8D651A336E1E007A5622 /* ViewController.swift */; };
 		92FD8D691A336E1E007A5622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FD8D671A336E1E007A5622 /* Main.storyboard */; };
 		92FD8D6B1A336E1E007A5622 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FD8D6A1A336E1E007A5622 /* Images.xcassets */; };
 		92FD8D6E1A336E1E007A5622 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FD8D6C1A336E1E007A5622 /* LaunchScreen.xib */; };
 		92FD8D7A1A336E1E007A5622 /* iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FD8D791A336E1E007A5622 /* iOSTests.swift */; };
+		92FD8D841A3372DE007A5622 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FD8D831A3372DE007A5622 /* Api.swift */; };
+		92FD8D861A337315007A5622 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FD8D851A337315007A5622 /* Alamofire.swift */; };
+		92FD8D881A3373BE007A5622 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FD8D871A3373BE007A5622 /* SwiftyJSON.swift */; };
+		92FD8D8A1A3373F0007A5622 /* AlamoSwifty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FD8D891A3373F0007A5622 /* AlamoSwifty.swift */; };
+		92FD8D8C1A338857007A5622 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FD8D8B1A338857007A5622 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		923F6CFB1A33F3610019EC7E /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		92FD8D5E1A336E1E007A5622 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FD8D621A336E1E007A5622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92FD8D631A336E1E007A5622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +43,11 @@
 		92FD8D731A336E1E007A5622 /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FD8D781A336E1E007A5622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92FD8D791A336E1E007A5622 /* iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTests.swift; sourceTree = "<group>"; };
+		92FD8D831A3372DE007A5622 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		92FD8D851A337315007A5622 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		92FD8D871A3373BE007A5622 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		92FD8D891A3373F0007A5622 /* AlamoSwifty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoSwifty.swift; sourceTree = "<group>"; };
+		92FD8D8B1A338857007A5622 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +91,13 @@
 			children = (
 				92FD8D631A336E1E007A5622 /* AppDelegate.swift */,
 				92FD8D651A336E1E007A5622 /* ViewController.swift */,
+				923F6CFB1A33F3610019EC7E /* InfoViewController.swift */,
+				92FD8D8B1A338857007A5622 /* Storage.swift */,
 				92FD8D671A336E1E007A5622 /* Main.storyboard */,
+				92FD8D831A3372DE007A5622 /* Api.swift */,
+				92FD8D871A3373BE007A5622 /* SwiftyJSON.swift */,
+				92FD8D891A3373F0007A5622 /* AlamoSwifty.swift */,
+				92FD8D851A337315007A5622 /* Alamofire.swift */,
 				92FD8D6A1A336E1E007A5622 /* Images.xcassets */,
 				92FD8D6C1A336E1E007A5622 /* LaunchScreen.xib */,
 				92FD8D611A336E1E007A5622 /* Supporting Files */,
@@ -212,7 +230,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92FD8D841A3372DE007A5622 /* Api.swift in Sources */,
+				92FD8D8C1A338857007A5622 /* Storage.swift in Sources */,
 				92FD8D661A336E1E007A5622 /* ViewController.swift in Sources */,
+				92FD8D8A1A3373F0007A5622 /* AlamoSwifty.swift in Sources */,
+				92FD8D861A337315007A5622 /* Alamofire.swift in Sources */,
+				92FD8D881A3373BE007A5622 /* SwiftyJSON.swift in Sources */,
+				923F6CFC1A33F3610019EC7E /* InfoViewController.swift in Sources */,
 				92FD8D641A336E1E007A5622 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +429,7 @@
 				92FD8D7F1A336E1E007A5622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92FD8D801A336E1E007A5622 /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				92FD8D821A336E1E007A5622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
